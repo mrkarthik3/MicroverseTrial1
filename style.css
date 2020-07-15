@@ -4,9 +4,38 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
 }
 
-#main{
+#img-caption {
     text-align: center;
+    /* text-decoration: wavy;
+     */
+     font-style: italic;
+     font-size: small;
 }
+
+
+#title{
+    text-align: center;
+     
+}
+.textcl{
+    text-align: justify;
+}
+
+#image {
+    border: 10px solid transparent;
+    /* padding: 15px; */
+    border-image: url(border.png) 30 fill;
+  }
+
+  #title {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 space;
+  }
+
+  body {
+    background: radial-gradient(circle, rgb(212, 198, 132), rgb(128, 60, 60));
+  }
